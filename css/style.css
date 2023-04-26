@@ -1,0 +1,188 @@
+body{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+/* header */
+header{
+    background: url(../images/visual_bg.jpg) no-repeat 0 0 / cover;
+    height: 950px;
+}
+
+.navbar-wrap{
+    width:1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.slogan{
+    width: 1000px;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+
+}
+/* contact-map */
+#map{
+    width: 100%;
+}
+
+/* section - article */
+.article-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #1e598c;
+    border-bottom: 1px solid #1e598c;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    padding: 50px 0 0 0;
+}
+.water-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.system{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+}
+
+.water-wrap p{
+    background: #1e598c;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    left: 43%;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.system li{
+    margin: 120px 0;
+}
+
+.system li img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+
+}
+
+.system li:hover img{
+    opacity: 50%;
+}
+
+
+.water-bg{
+  background: url(../images/system_bg.jpg) no-repeat 0 0 / cover;
+  height: 705px;
+  width: 100%;
+
+}
+
+.bg-product{
+    background: url(../images/product_bg.gif);
+    height: 1000px;
+    position: relative;
+}
+
+
+
+.sub-title{
+    width: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.sub-title strong {
+    color: #ed480e;
+}
+
+.product-wrap{
+    max-width:100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 34%;
+
+}
+
+.text{
+    position: absolute;
+    left: 45%;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 10px;
+    
+}
+.text a{
+    text-decoration: none;
+}
+
+.text:hover{
+    background: #000;
+    color: #000;
+}
+
+
+.cotext{
+    position: absolute;
+    max-width: 1000px;
+    bottom: 150px;
+    left: 25%;
+}
+
+.cotext p:nth-child(1){
+    font-size: 20px;
+    font-weight: 500;
+    color: #193f5c;
+}
+
+.cotext p:nth-child(1)::after{
+    content: '';
+    line-height: 1.8;
+}
+
+.cotext p:nth-child(2){
+    font-size: 30px;
+    font-weight: 500, 300;
+    color: #193f5c;
+}
+
+.company{
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+}
+
+/* footer */
+
+.icon li{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+   margin: 0 auto;
+}
+
+.footer-wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-text{
+    width: 100%;
+   
+}
+
+.footer-text :nth-child(1){
+    margin: 30px 0;
+}
